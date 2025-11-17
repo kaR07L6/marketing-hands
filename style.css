@@ -13,13 +13,19 @@
 }
 
 body {
-  font-family: 'Kosugi Maru', sans-serif !important; /* 全体は丸ゴシック */
+  font-family: 'Kosugi Maru', sans-serif;
   width: 100%;
   margin: 0;
   color: var(--text-color);
   background: var(--bg);
   line-height: 1.8;
 }
+
+header h1,
+  .site-title,
+  .logo {
+    font-family: inherit; /* ← 元のままにする */
+  }
 
 
 .site-header {
