@@ -266,6 +266,7 @@ ul {
 @media (max-width: 500px) {
   body {
     font-size: 15px;
+    font-family: 'Kosugi Maru', sans-serif;
   }
 
   .post {
